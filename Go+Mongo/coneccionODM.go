@@ -26,7 +26,7 @@ func main() {
 		DatabaseName:  "mongodm_sample",
 		// DatabaseUser:     "admin",
 		// DatabasePassword: "admin",
-		Locals: localMap["en-US"],
+		Locals: localMap}["en-US"],
 	}
 
 	connection, err := mongodm.Connect(dbConfig)

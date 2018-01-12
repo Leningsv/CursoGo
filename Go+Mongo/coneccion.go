@@ -16,7 +16,7 @@ type Person struct {
 type People struct {
 }
 
-func main() {
+func main1() {
 	session, err := mgo.Dial("localhost:27017")
 	if err != nil {
 		panic(err)
